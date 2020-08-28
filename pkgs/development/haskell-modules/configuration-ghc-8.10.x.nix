@@ -125,4 +125,7 @@ self: super: {
   pandoc-plot = self.pandoc-plot_0_9_2_0;
   pandoc-types = self.pandoc-types_1_21;
 
+  # We want the latest version of cryptonite: https://github.com/NixOS/nixpkgs/issues/81915
+  cryptonite = self.cryptonite_0_27;
+
 }
